@@ -176,7 +176,7 @@
 			label = "nav_left";
 			gpios = <&pm8941_gpios 6 0x1>;
 			linux,input-type = <1>;
-			linux,code = <158>;
+			linux,code = <580>;
 			gpio-key,wakeup;
 			debounce-interval = <15>;
 		};
@@ -186,7 +186,7 @@
 			label = "nav_right";
 			gpios = <&pm8941_gpios 7 0x1>;
 			linux,input-type = <1>;
-			linux,code = <580>;
+			linux,code = <158>;
 			gpio-key,wakeup;
 			debounce-interval = <15>;
 		};
